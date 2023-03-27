@@ -1,0 +1,32 @@
+.section-table {
+  display: flex;
+  width: calc(100vw - 30rem);
+  height: calc(100vh - 15rem);
+  overflow-y: scroll;
+
+  // border: 1px solid $color-grey-light--1;
+
+  .table {
+    max-height: 50vh !important;
+    // margin: 1rem;
+    background-color: $color-white;
+
+    .name {
+      color: $color-primary !important;
+      font-weight: 600;
+    }
+
+    tr th {
+      color: $color-secondary !important;
+      font-weight: 400;
+    }
+
+    tr td {
+      text-align: center;
+      white-space: normal !important;
+      word-wrap: break-word !important;
+      min-width: 25rem;
+      max-width: 25rem;
+    }
+  }
+}
